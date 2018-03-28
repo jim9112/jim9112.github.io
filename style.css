@@ -69,3 +69,8 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+.headshot {
+	align-self: center;
+	width: 350px;
+	height: 350px;
+}
