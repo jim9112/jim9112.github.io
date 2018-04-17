@@ -30,3 +30,6 @@ img {
     height: 200px;
     width: 300px;
 }
+.days > p {
+    margin-top: 0px;
+  }
