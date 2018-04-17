@@ -1,4 +1,10 @@
 
+main {
+	background: #FAFAFA;
+	color: #0277BD;
+}
+
+
 .introduction {
     display: flex;
 	flex-direction: column;
@@ -14,6 +20,11 @@
     /* justify-content: center; */
     text-align: center;
   
+}
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 img {
     height: 200px;
