@@ -4,7 +4,9 @@ main {
 	color: rgb(91, 161, 80);
 }
 
-
+.jumbotron {
+    /* background: #FAFAFA; */
+}
 .introduction {
     display: flex;
 	flex-direction: column;
@@ -39,3 +41,14 @@ img {
     justify-content: center;
     text-align: center;
   }
+.icons-social {
+    font-size: 2em;
+}
+
+  .icons-social a {
+	color: black;
+}
+
+.icons-social a svg path{
+	fill: black;
+}
