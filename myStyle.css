@@ -35,8 +35,10 @@ img {
 .days > p {
     margin-top: 0px;
   }
-
-  .card-body > a {
+.card {
+    margin: 5px;
+}
+.card-body > a {
     display: flex;
     justify-content: center;
     text-align: center;
