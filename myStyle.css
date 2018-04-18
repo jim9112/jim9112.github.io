@@ -4,9 +4,9 @@ main {
 	color: rgb(91, 161, 80);
 }
 
-.jumbotron {
+/* .jumbotron {
     /* background: #FAFAFA; */
-}
+/* } */
 .introduction {
     display: flex;
 	flex-direction: column;
