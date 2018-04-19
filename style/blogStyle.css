@@ -1,0 +1,11 @@
+.content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.top {
+    border-bottom: solid 2px black;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align-last: center;
+}
