@@ -1,77 +1,172 @@
-/* Typography */
-
+* {
+  padding: 0;
+  margin: 0;
+}
 html {
-	font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Reem Kufi', sans-serif;
 }
 
-@media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+a {
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+i {
+  font-size: 3rem;
+  color: rgb(91, 161, 80);
 }
 
-@media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+.main {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #5ba150;
+}
+.projects {
+  background: #5ba150;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+  /* height: 100vh; */
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+}
+.about-me {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100vh;
+  text-align: center;
+  color: #5ba150;
+}
+.icons-social {
+  display: flex;
+  /* gap: 2rem; */
+  justify-content: center;
 }
 
-@media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+.site-links {
+  display: flex;
+  justify-content: center;
 }
 
-@media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+.site-links a {
+  background: #4f83a1;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
+.fa-github-square {
+  color: #24292e;
+}
+.slides {
+  width: 800px;
+  height: 500px;
+  border-radius: 5px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.icons-social i {
-	font-size: 3em;
+.slide {
+  position: absolute;
+  background: white;
+  color: #5ba150;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  transition: all 0.25s;
+  transform: translateX(-200%);
 }
 
-/* Custom Styles */
-
-main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+.slide h2 {
+  margin-top: 1rem;
+}
+.slide p {
+  margin: 1rem;
+}
+.project-pic {
+  width: 500px;
+  margin: 1rem;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+}
+.controls button {
+  background: #4f83a1;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.controls a {
+  background: #4f83a1;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+.bio a {
+  background: #4f83a1;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+.slide.next + .slide {
+  transform: translateX(200%);
 }
 
-.icons-social i {
-	padding: 10px;
+.slide.prev {
+  z-index: 10;
+  transform: translateX(-100%);
+}
+.slide.current {
+  z-index: 10;
+  transform: translateX(0);
+}
+.slide.next {
+  z-index: 10;
+  transform: translateX(100%);
+}
+.bio {
+  max-width: 700px;
 }
 
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
-}
-.headshot {
-	border-radius: 50%;
-	align-self: center;
-	width: 350px;
-	height: 350px;
+@media (max-width: 700px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .project-pic {
+    width: 300px;
+    margin: 1rem;
+  }
+  .slides {
+    width: 100%;
+    height: fit-content;
+  }
 }
