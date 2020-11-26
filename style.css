@@ -22,7 +22,10 @@ i {
   font-size: 3rem;
   color: rgb(91, 161, 80);
 }
-
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 .main {
   display: grid;
   align-content: center;
@@ -78,7 +81,7 @@ i {
 }
 .slides {
   width: 800px;
-  height: 500px;
+  min-height: 500px;
   border-radius: 5px;
   position: relative;
   margin: 0 auto;
@@ -110,6 +113,7 @@ i {
 .controls {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 .controls button {
   background: #4f83a1;
