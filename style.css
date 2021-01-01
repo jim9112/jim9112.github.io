@@ -1,179 +1,253 @@
-* {
-  padding: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
-}
-html {
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Reem Kufi', sans-serif;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%; */
+  /* font: inherit; */
+  vertical-align: baseline;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 a {
   text-decoration: none;
-  margin-left: 15px;
-  margin-right: 15px;
 }
-h1 {
-  font-size: 5rem;
+body {
+  background: #252122;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
 }
-h2 {
-  font-size: 3rem;
-}
-i {
-  font-size: 3rem;
-  color: rgb(91, 161, 80);
-}
-p {
-  font-size: 1.2rem;
-  line-height: 2rem;
-}
-.main {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  gap: 2rem;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  color: #5ba150;
-}
-.projects {
-  background: #5ba150;
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  gap: 2rem;
-  /* height: 100vh; */
-  min-height: 100vh;
-  text-align: center;
-  color: white;
-}
-.about-me {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  gap: 2rem;
-  height: 100vh;
-  text-align: center;
-  color: #5ba150;
-}
-.icons-social {
+footer {
   display: flex;
-  /* gap: 2rem; */
-  justify-content: center;
+  height: 100px;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 300px;
+}
+section {
+  padding-top: 5px;
+}
+ul {
+  list-style: none;
 }
 
-.site-links {
-  display: flex;
-  justify-content: center;
-}
-
-.site-links a {
-  background: #4f83a1;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-}
-.fa-linkedin {
-  color: #0a66c2;
-}
-.fa-github-square {
-  color: #24292e;
-}
-.slides {
-  width: 800px;
-  min-height: 500px;
-  border-radius: 5px;
+#banner {
+  background: #cce8f4 url(./pexels-cristiana-raluca-686230.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
   position: relative;
-  margin: 0 auto;
-  overflow: hidden;
+  padding: 5em;
 }
 
-.slide {
-  position: absolute;
-  background: white;
-  color: #5ba150;
-  height: 100%;
-  width: 100%;
+#banner header {
+  width: fit-content;
+  margin: auto;
+  background: rgba(34, 30, 31, 0.98);
+  padding: 2.5em 5em;
+  border-radius: 5px;
   text-align: center;
-  font-family: sans-serif;
-  transition: all 0.25s;
-  transform: translateX(-200%);
 }
 
-.slide h2 {
-  margin-top: 1rem;
+#banner header h2 {
+  color: #fff;
 }
-.slide p {
-  margin: 1rem;
+
+#banner header p {
+  color: #d52349;
 }
-.project-pic {
-  width: 500px;
-  margin: 1rem;
+#footer {
+  background: #d52349;
+  color: white;
 }
-.controls {
+
+#footer a {
+  color: black;
+  font-weight: bolder;
+}
+
+#header {
+  background: white;
+  margin: 0;
+}
+#main {
+  background: #f7f7f7;
+}
+#nav ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
 }
-.controls button {
-  background: #4f83a1;
+#nav ul li {
+  margin: 1rem;
+  padding: 0.5rem;
+  background: #d52349;
+  border-radius: 5px;
   color: white;
-  padding: 5px;
-  border: none;
+}
+#nav ul li a {
+  color: white;
+}
+.about {
+  background-color: #ffffff;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+}
+.actions li {
+  margin: 1rem;
+  padding: 0.5rem;
+  background: rgba(34, 30, 31, 0.98);
   border-radius: 5px;
 }
-.controls a {
-  background: #4f83a1;
+.actions a {
   color: white;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
+}
+.box {
+  padding: 0;
+  background: #ffffff;
+  border-bottom: solid 1px #ccc;
+  height: 100%;
+}
+.box header {
+  text-align: center;
+}
+.box p {
+  margin: 1rem;
+}
+.major {
+  position: relative;
+  text-align: center;
+  border-top: solid 1px #ccc;
+  top: 1em;
+  margin: 0 0 3em 0;
 }
 
-.bio a {
-  background: #4f83a1;
-  color: white;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
+.major h2 {
+  position: relative;
+  top: -0.65em;
+  display: inline;
+  margin: 0;
+  padding: 0.5em;
+  background: #f7f7f7;
 }
 
-.slide.next + .slide {
-  transform: translateX(200%);
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
 }
 
-.slide.prev {
-  z-index: 10;
-  transform: translateX(-100%);
+.row {
+  padding: 1rem;
 }
-.slide.current {
-  z-index: 10;
-  transform: translateX(0);
+.socialIcons {
+  margin-right: 1rem;
 }
-.slide.next {
-  z-index: 10;
-  transform: translateX(100%);
-}
-.bio {
-  max-width: 700px;
+
+.socialIcons img {
+  width: 40px;
+  height: 40px;
 }
 
 @media (max-width: 700px) {
-  h1 {
-    font-size: 4rem;
+  #banner {
+    padding: 1rem 0;
   }
-  h2 {
-    font-size: 2rem;
-  }
-  .project-pic {
-    width: 300px;
-    margin: 1rem;
-  }
-  .slides {
+  #banner header {
     width: 100%;
-    height: 550px;
+    margin: 0;
+    padding: 0;
   }
-  .controls {
-    margin-bottom: 1rem;
+  .portfolio-container {
+    margin: 0;
   }
 }

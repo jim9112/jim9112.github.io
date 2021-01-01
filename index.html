@@ -1,151 +1,198 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Hannan | Web Dev</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300"
-      rel="stylesheet"
-    />
-    <link
-      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="main" id="top">
-      <div class="headline">
-        <h1>Hello, I'm James!</h1>
-        <h3>Web Dev | Cycling Fanatic</h3>
-      </div>
-      <div class="site-links">
-        <a href="#about-me">About Me</a>
-        <a href="#projects">See Some of My Work</a>
-        <!-- <a href="http://">Contact Me</a> -->
-      </div>
-      <div class="icons-social">
-        <a target="_blank" href="https://github.com/jim9112">
-          <i class="fab fa-github-square"></i>
-        </a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/james-hannan-811771144/"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-    </div>
+<!DOCTYPE HTML>
 
-    <!--                      Project Page                     -->
-    <div class="projects" id="projects">
-      <h2>A Few Things I Have Built</h2>
-      <div class="slider">
-        <div class="slides">
-          <!-- first Project -->
-          <div class="slide current">
-            <h2>140 Characters Of Awesome</h2>
-            <img class="project-pic" src="media/social-media.png" alt="" />
-            <p>
-              This is a basic social media application and my first full stack
-              application. It is built using the MERN stack. It features
-              authentication and full CRUD functionality. Hosted on Heroku.
-            </p>
-            <div class="site-links">
-              <a
-                href="https://github.com/jim9112/140CharactersOfAwesome"
-                target="blank"
-                >See the code</a
-              ><a href="https://vast-sands-68533.herokuapp.com/" target="blank"
-                >See it live</a
-              >
-            </div>
-          </div>
-          <!--       Second Project -->
-          <div class="slide">
-            <h2>Math Flashcards</h2>
-            <img class="project-pic" src="media/Flashcards.png" alt="" />
-            <p>
-              A little application built to help my son study math. Built with
-              HTML, CSS, and JavaScript
-            </p>
-            <div class="site-links">
-              <a
-                href="https://github.com/jim9112/Math-Flashcards"
-                target="blank"
-                >See the code</a
-              ><a
-                href="https://jim9112.github.io/Math-Flashcards/"
-                target="blank"
-                >See it live</a
-              >
-            </div>
-          </div>
-          <!-- Third Project -->
-          <div class="slide">
-            <h2>Interactive Event Form</h2>
-            <img class="project-pic" src="media/form.png" alt="" />
-            <p>
-              An interactive form with adaptive menus and input validation.
-              JavaScript only no APIs
-            </p>
-            <div class="site-links">
-              <a
-                href="https://github.com/jim9112/treehouse_project_three"
-                target="blank"
-                >See the code</a
-              ><a
-                href="http://jimmyhannan.com/treehouse_project_three/"
-                target="blank"
-                >See it live</a
-              >
-            </div>
-          </div>
-          <!-- Fourth Project -->
-          <div class="slide">
-            <h2>Tic Tac Toe</h2>
-            <img class="project-pic" src="media/TicTacToe.png" alt="" />
-            <p>A two person Tic Tac Toe game. JavaScript only, no APIs</p>
-            <div class="site-links">
-              <a
-                href="https://github.com/jim9112/treehouse_project_four"
-                target="blank"
-                >See the code</a
-              ><a
-                href="http://jimmyhannan.com/treehouse_project_four/"
-                target="blank"
-                >See it live</a
-              >
-            </div>
-          </div>
+<html>
+	<head>
+		<title>Jimmy Hannan | Web Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="page-wrapper">
 
-          <!--                    End projects            -->
-        </div>
-      </div>
-      <div class="controls">
-        <button class="goToPrev">← Prev</button><a href="#top">Home</a
-        ><button class="goToNext">Next →</button>
-      </div>
-    </div>
+			<!-- Header -->
+				<section id="header">
 
-    <!--                       About Me Page                       -->
-    <div class="about-me" id="about-me">
-      <h1>About Me</h1>
-      <p class="bio">
-        Hello, my name is James. I live in New Hampshire and I am looking for my
-        first role as a web/software developer. I recently graduated Summa Cum
-        Laude from Southern New Hampshire University with a BS in Information
-        Technology and concentration in Web Design and Development. I enjoy
-        building projects with JavaScript and have been spending a lot of time
-        with React recently. Feel free to check out my<a
-          href="./Resume.pdf"
-          target="blank"
-          >Resume</a
-        >
-        if you are interested in learning more.
-      </p>
-    </div>
-    <script src="./slider.js"></script>
-  </body>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#main">Portfolio</a></li>
+								<li><a href="#about-me">About Me</a></li>
+								<li><a href="#footer">Contact</a></li>
+							</ul>
+						</nav>
+
+					<!-- Banner -->
+						<section id="banner">
+							<header>
+								<h2>Hello. My name is James.</h2>
+								<p>Aspiring Web Developer and Cycling Fanatic</p>
+							</header>
+						</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div>
+						<div>
+							<div>
+
+								<!-- Portfolio -->
+									<section>
+										<header class="major">
+											<h2>My Portfolio</h2>
+										</header>
+										<div class="portfolio-container">
+
+											<!-- Card 1 -->
+											<div>
+												<section class="box">
+													<a href="https://jim9112.github.io/Math-Flashcards/" target="blank" ><img src="./images/Flashcards.png" alt="Math Flash Cards Project" /></a>
+													<header>
+														<h3>Math Flashcards</h3>
+													</header>
+													<p>A little application built to help my son study math. Built with HTML, CSS, and JavaScript</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://jim9112.github.io/Math-Flashcards/" target="blank" >Live Project</a></li>
+															<li><a href="https://github.com/jim9112/Math-Flashcards" target="blank" >See The Code</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+
+											<!-- Card 2 -->
+											<div>
+												<section class="box">
+													<a href="https://vast-sands-68533.herokuapp.com/" target="blank" ><img src="./images/social-media.png" alt="Social Media Project" /></a>
+													<header>
+														<h3>140 Characters Of Awesome</h3>
+													</header>
+													<p>This is a basic social media application. It is built using the MERN stack.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://vast-sands-68533.herokuapp.com/" target="blank" >Live Project</a></li>
+															<li><a href="https://github.com/jim9112/140CharactersOfAwesome" target="blank" >See The Code</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+
+											<!-- Card 3 -->
+											<div>
+												<section class="box">
+													<a href="http://jimmyhannan.com/random-quote-generator/" target="blank" ><img src="./images/quote_generator.png" alt="Project Screen Shot" /></a>
+													<header>
+														<h3>Quote Generator</h3>
+													</header>
+													<p>A random quote generator built HTML CSS and JavaScript</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="http://jimmyhannan.com/random-quote-generator/" target="blank" >Live Project</a></li>
+															<li><a href="https://github.com/jim9112/random-quote-generator" target="blank" >See The Code</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+
+											<!-- Card 4 -->
+											<div>
+												<section class="box">
+													<a href="http://jimmyhannan.com/directory-pagination/" target="blank" ><img src="./images/Pagination.png" alt="" /></a>
+													<header>
+														<h3>Pagination</h3>
+													</header>
+													<p> An exapmle of paginating a directory with JavaScript</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="http://jimmyhannan.com/directory-pagination/" target="blank" >Live Project</a></li>
+															<li><a href="https://github.com/jim9112/directory-pagination" target="blank" >See The Code</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+
+											<!-- Card 5 -->
+											<div>
+												<section class="box">
+													<a href="http://jimmyhannan.com/Tic-Tac-Toe/" target="blank" ><img src="./images/TicTacToe.png" alt="Tic TacToe Project" /></a>
+													<header>
+														<h3>Tic Tac Toe</h3>
+													</header>
+													<p>A two person Tic Tac Toe game. JavaScript only no APIs</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="http://jimmyhannan.com/Tic-Tac-Toe/" target="blank" >Live Project</a></li>
+															<li><a href="https://github.com/jim9112/Tic-Tac-Toe" target="blank" >See The Code</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+
+											<!-- Card 5 -->
+											<!-- <div class="project-card">
+												<section class="box">
+													<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+													<header>
+														<h3>Dolore nisl feugiat</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Live Project</a></li>
+															<li><a href="#" class="button alt">See The Code</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div> -->
+
+
+										</div>
+									</section>
+
+							</div>
+							<div>
+
+								<!-- Blog -->
+									<section id="about-me">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<div class="row">
+											<div class="about">
+												<p>Hello, my name is James. I live in New Hampshire and I am looking for my first role as a web/software developer. I recently graduated Summa Cum Laude from Southern New Hampshire University with a BS in Information Technology and concentration in Web Design and Development. I enjoy building projects with JavaScript and have been spending a lot of time with React recently. Feel free to check out my resume, GitHub, or LinkedIn page linked below if you are interested in learning more. </p>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<footer>
+						<div>
+							<h4>Downloads:</h4>
+							<a href="./Resume.pdf" target="blank">My Resume</a>
+
+						</div>
+						<div class="socialIcons right">
+							<h4>Social Media:</h4>
+							<a href="https://github.com/jim9112" target="blank"
+								><img src="./images/github-brands.svg" alt="Github icon" />
+							</a>
+							<a href="https://twitter.com/jim9112" target="blank"
+								><img src="./images/twitter-brands.svg" alt="Twitter icon" />
+							</a>
+							<a
+								href="https://www.linkedin.com/in/james-hannan-811771144/"
+								target="blank"
+								><img src="./images/linkedin-in-brands.svg" alt="LinkedIn icon" />
+							</a>
+						</div>
+					</footer>
+				</section>
+
+	</body>
 </html>
