@@ -202,6 +202,11 @@ ul {
 .box p {
   margin: 1rem;
 }
+.logos img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
 .major {
   position: relative;
   text-align: center;
