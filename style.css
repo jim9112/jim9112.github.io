@@ -171,6 +171,9 @@ ul {
 #nav ul li a {
   color: white;
 }
+#skills {
+  background: #f7f7f7;
+}
 .about {
   background-color: #ffffff;
   padding: 2rem;
@@ -201,6 +204,13 @@ ul {
 }
 .box p {
   margin: 1rem;
+}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: auto;
+  justify-items: center;
 }
 .logos img {
   width: 150px;
