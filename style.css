@@ -211,9 +211,14 @@ ul {
   background: #ffffff;
   border-bottom: solid 1px #ccc;
   height: 100%;
+  position: relative;
+  display: grid;
 }
 .box header {
   text-align: center;
+}
+.box footer {
+  align-self: end;
 }
 .box p {
   margin: 1rem;
