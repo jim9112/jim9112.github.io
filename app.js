@@ -1,7 +1,13 @@
 const hamburgerMenuIcon = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-menu');
 
-const handleClick = () => {
+const handleIconClick = () => {
     console.log('test');
+    mobileMenu.classList.remove('hide')
 }
-
-hamburgerMenuIcon.addEventListener('click', handleClick);
+const hamdleMenuClick = (e) => {
+    console.log(e.target)
+    mobileMenu.classList.add('hide')
+}
+hamburgerMenuIcon.addEventListener('click', handleIconClick);
+mobileMenu.addEventListener('click', hamdleMenuClick);
