@@ -121,7 +121,7 @@ img {
   height: 300px;
 }
 section {
-  padding-top: 5px;
+
 }
 ul {
   list-style: none;
@@ -169,19 +169,18 @@ ul {
 #main {
   background: #f7f7f7;
 }
-#nav ul {
+#nav {
+  background-color: #d52349;
+  color: white;
+  padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  position: relative;
 }
-#nav ul li {
-  margin: 1rem;
-  padding: 0.5rem;
-  background: #d52349;
-  border-radius: 5px;
+#nav a {
   color: white;
-}
-#nav ul li a {
-  color: white;
+  margin-left: 10px;
 }
 #skills {
   background: #f7f7f7;
@@ -205,6 +204,10 @@ ul {
 }
 .actions a {
   color: white;
+}
+.brand {
+  position: absolute;
+  left: 10px;
 }
 .box {
   padding: 0;
