@@ -239,6 +239,7 @@ ul {
   width: 20px;
   height: 20px;
   display: none;
+  cursor: pointer;
 }
 /* banner styles */
 
