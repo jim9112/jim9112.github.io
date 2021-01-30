@@ -120,13 +120,9 @@ img {
   max-width: 100%;
   height: 300px;
 }
-section {
-
-}
 ul {
   list-style: none;
 }
-
 #banner {
   background: #cce8f4 url(./pexels-cristiana-raluca-686230.jpg);
   background-position: center center;
@@ -136,7 +132,6 @@ ul {
   position: relative;
   padding: 5em;
 }
-
 #banner header {
   margin: auto;
   background: rgba(34, 30, 31, 0.98);
@@ -144,24 +139,12 @@ ul {
   border-radius: 5px;
   text-align: center;
 }
-
 #banner header h1 {
   color: #fff;
 }
-
 #banner header p {
   color: #d52349;
 }
-#footer {
-  background: #d52349;
-  color: white;
-}
-
-#footer a {
-  color: black;
-  font-weight: bolder;
-}
-
 #header {
   background: white;
   margin: 0;
@@ -169,22 +152,8 @@ ul {
 #main {
   background: #f7f7f7;
 }
-#nav {
-  background-color: #d52349;
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 50px;
-  position: relative;
-}
-#nav a {
-  color: white;
-  margin-left: 10px;
-}
-#skills {
-  background: #f7f7f7;
-}
+
+
 .about {
   background-color: #ffffff;
   padding: 2rem;
@@ -205,10 +174,7 @@ ul {
 .actions a {
   color: white;
 }
-.brand {
-  position: absolute;
-  left: 10px;
-}
+
 .box {
   padding: 0;
   background: #ffffff;
@@ -226,11 +192,7 @@ ul {
 .box p {
   margin: 1rem;
 }
-.hamburger {
-  width: 20px;
-  height: 20px;
-  display: none;
-}
+
 .logos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -259,6 +221,46 @@ ul {
   padding: 0.5em;
   background: #f7f7f7;
 }
+.row {
+  padding: 1rem;
+}
+.sectionTopSpace {
+  margin-top: 2rem;
+}
+
+/* nav styles */
+
+#nav {
+  background-color: #d52349;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  position: relative;
+}
+#nav a {
+  color: white;
+  margin-left: 10px;
+}
+.brand {
+  position: absolute;
+  left: 10px;
+}
+.hamburger {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+/* banner styles */
+
+/* skills styles */
+
+#skills {
+  background: #f7f7f7;
+}
+
+/* portfolio styles */
 
 .portfolio-container {
   display: grid;
@@ -267,16 +269,21 @@ ul {
   margin: 1rem;
 }
 
-.row {
-  padding: 1rem;
+/* about me styles */
+
+/* footer styles */
+
+#footer {
+  background: #d52349;
+  color: white;
 }
-.sectionTopSpace {
-  margin-top: 2rem;
+#footer a {
+  color: black;
+  font-weight: bolder;
 }
 .socialIcons {
   margin-right: 1rem;
 }
-
 .socialIcons img {
   width: 40px;
   height: 40px;
