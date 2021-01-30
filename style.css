@@ -174,7 +174,6 @@ ul {
 .actions a {
   color: white;
 }
-
 .box {
   padding: 0;
   background: #ffffff;
@@ -193,18 +192,7 @@ ul {
   margin: 1rem;
 }
 
-.logos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 1rem;
-  margin: auto;
-  justify-items: center;
-}
-.logos img {
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-}
+
 .major {
   position: relative;
   text-align: center;
@@ -259,7 +247,18 @@ ul {
 #skills {
   background: #f7f7f7;
 }
-
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  margin: auto;
+  justify-items: center;
+}
+.logos img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
 /* portfolio styles */
 
 .portfolio-container {
