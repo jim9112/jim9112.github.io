@@ -313,4 +313,7 @@ ul {
   .hamburger {
     display: inline;
   }
+  .fs-nav {
+    display: none;
+  }
 }
